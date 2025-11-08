@@ -1,4 +1,5 @@
 import { Mic2, MapPin, Phone, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Footer() {
   return (
@@ -6,12 +7,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            <Link to="/" className="flex items-center gap-2 mb-4 hover:opacity-80 transition">
               <div className="w-10 h-10 bg-red-700 rounded-full flex items-center justify-center">
                 <Mic2 className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-bold text-xl">VoiceTravel</h3>
-            </div>
+            </Link>
             <p className="text-gray-400 text-sm">
               Your trusted partner for unforgettable European travel experiences.
             </p>
@@ -20,9 +21,9 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#packages" className="hover:text-red-400 transition">Packages</a></li>
-              <li><a href="#about" className="hover:text-red-400 transition">About Us</a></li>
-              <li><a href="#" className="hover:text-red-400 transition">Testimonials</a></li>
+              <li><Link to="/" className="hover:text-red-400 transition">Home</Link></li>
+              <li><Link to="/about" className="hover:text-red-400 transition">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-red-400 transition">Contact</Link></li>
               <li><a href="#" className="hover:text-red-400 transition">FAQ</a></li>
             </ul>
           </div>
@@ -30,7 +31,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-white">Services</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-red-400 transition">Tour Packages</a></li>
+              <li><Link to="/" className="hover:text-red-400 transition">Tour Packages</Link></li>
               <li><a href="#" className="hover:text-red-400 transition">Visa Assistance</a></li>
               <li><a href="#" className="hover:text-red-400 transition">Travel Insurance</a></li>
               <li><a href="#" className="hover:text-red-400 transition">Custom Itineraries</a></li>
