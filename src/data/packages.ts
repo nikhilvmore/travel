@@ -9,7 +9,7 @@ export const packages: TravelPackage[] = [
     duration: '07 NIGHTS / 08 DAYS  ',
     dates: ['25TH MARCH’2026' , '8TH APRIL’2026'],
     countries: ['01N Narita' , '02N Tokyo' , '03N Kyoto' , '01N Kansai'],
-    price: 100000,
+    price: 329999,
     currency: 'INR',
     highlights: [
       'Take in breathtaking views from the Tokyo Skytree, one of the world’s tallest towers.',
@@ -38,11 +38,18 @@ export const packages: TravelPackage[] = [
 
     ],
     included: [
-      'Romantic cities',
-      'Breathtaking landscapes',
-      'Iconic landmarks',
-      'Cultural experiences',
-      'All-inclusive comfort'
+      'Early Check In / Late Check Out',
+      'POE charges and passport charges',
+      'Any expenses of personal nature such as porterage, laundry expenses, wines, mineral water, food and drink not in the regular menu provided by us, minibar, telephone calls, etc.',
+      'Meals other than that are what is mentioned in your itinerary.',
+      'Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passengers, other than that mentioned in your itinerary.',
+      'Private airport transfers, Cost of Suggested / Optional Excursions.',
+      'Arrival and Departure PCR – COVID test if required by the airline or Government bodies (if applicable)',
+      'Any hike in currency exchange rate can alter the package cost at the time of confirmation',
+      'Anything which is not mentioned in the “INCLUSIONS” list.',
+      '5% GST',
+      '5% TCS'
+
     ]
   },
   {
