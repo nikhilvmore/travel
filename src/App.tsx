@@ -4,7 +4,7 @@ import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Contact } from './pages/Contact';
-import { Japan } from './pages/Japan';
+//import { Japan } from './pages/Japan';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/japan" element={<Japan />} />
+            {/* <Route path="/japan" element={<Japan />} /> */}
           </Routes>
         </main>
         <Footer />
