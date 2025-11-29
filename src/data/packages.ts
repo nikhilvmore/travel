@@ -76,7 +76,7 @@ export const packages: TravelPackage[] = [
   },
   {
     id: 'alpine-rhapsody',
-    title: 'Alpine Rhapsody',
+    title: 'Best of Australia',
     tagline: "It's Time to Travel",
     image: '/IMG-20251026-WA0003.jpg',
     duration: '8 Days',
