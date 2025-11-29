@@ -100,17 +100,17 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              name: 'Rajesh Kumar',
+              name: 'Mitali Deshmukh',
               role: 'Founder & CEO',
               desc: 'Passionate traveler with 15+ years of European tourism expertise'
             },
             {
-              name: 'Priya Sharma',
+              name: 'Mitali Deshmukh',
               role: 'Head of Operations',
               desc: 'Ensures every tour runs flawlessly with meticulous planning'
             },
             {
-              name: 'Marco Rossi',
+              name: 'Mitali Deshmukh',
               role: 'Chief Tour Manager',
               desc: 'Italian-born expert bringing authentic European experiences to life'
             }
